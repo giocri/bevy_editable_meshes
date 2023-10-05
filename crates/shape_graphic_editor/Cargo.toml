@@ -1,5 +1,5 @@
 [package]
-name = "editable_shapes_framework"
+name = "shape_graphic_editor"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,3 +7,5 @@ edition = "2021"
 bevy = { version = "0.11", default-features = false, features = [
     "bevy_render",
 ] }
+bevy_transform_gizmo="0.8.0"
+editable_shapes_framework={path="../editable_shapes_framework"}

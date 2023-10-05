@@ -7,9 +7,14 @@ pub enum Linktype{
     SplineSection
 }
 #[derive(Debug, Component)]
-pub struct EditableShape
+pub struct AbStractShape
 {
     handles:Vec<HandlePoint>,
     groups:HashMap<String,Vec<i32>>,
     links:Vec<(Linktype,Vec<i32>)>
+}
+impl AbStractShape {
+    fn addlink(&mut self,link:(Linktype,Vec<i32>)){
+
+    }
 }
